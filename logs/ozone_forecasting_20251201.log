@@ -1,0 +1,101 @@
+2025-12-01 22:25:24 - OzoneForecasting - INFO - ============================================================
+2025-12-01 22:25:24 - OzoneForecasting - INFO - 🌍 ЗАПУСК ПРИЛОЖЕНИЯ OSO FORECASTING С ЭКСПЕРИМЕНТАЛЬНЫМ РЕЖИМОМ
+2025-12-01 22:25:24 - OzoneForecasting - INFO - ============================================================
+2025-12-01 22:25:25 - OzoneForecasting - INFO - 🚀 Запуск приложения OSO Forecasting с экспериментальным режимом
+2025-12-01 22:25:25 - OzoneForecasting - INFO - Инициализирован OzoneDataLoader
+2025-12-01 22:25:25 - OzoneForecasting - INFO - Инициализирована модель OzoneHybridModel
+2025-12-01 22:25:29 - OzoneForecasting - INFO - ✅ Интерфейс приложения инициализирован с экспериментальным режимом
+2025-12-01 22:25:50 - OzoneForecasting - INFO - Вызов функции: load_demo_data
+2025-12-01 22:25:50 - OzoneForecasting - INFO - Пользователь запросил загрузку демонстрационных данных
+2025-12-01 22:25:50 - OzoneForecasting - INFO - 📊 Начало операции: Создание демонстрационных данных ОСО
+2025-12-01 22:25:50 - OzoneForecasting - INFO - Функция load_demo_data выполнена успешно
+2025-12-01 22:25:50 - OzoneForecasting - INFO - Генерация данных за период: 1960-2024
+2025-12-01 22:25:50 - OzoneForecasting - INFO - Создано демонстрационных данных: 780 записей
+2025-12-01 22:25:50 - OzoneForecasting - INFO - ✅ Создание демонстрационных данных ОСО завершена. Размер данных: (780, 7)
+2025-12-01 22:25:50 - OzoneForecasting - INFO - Демо-данные успешно созданы и загружены в интерфейс
+2025-12-01 22:25:55 - OzoneForecasting - INFO - Вызов функции: train_model
+2025-12-01 22:25:55 - OzoneForecasting - INFO - Начало процесса обучения модели
+2025-12-01 22:25:55 - OzoneForecasting - INFO - Запуск потока обучения модели
+2025-12-01 22:25:55 - OzoneForecasting - INFO - Функция train_model выполнена успешно
+2025-12-01 22:26:01 - OzoneForecasting - INFO - 🚀 Начало обучения модели: OzoneHybridModel (Conv1D + LSTM)
+2025-12-01 22:26:01 - OzoneForecasting - INFO - Вызов функции: prepare_data
+2025-12-01 22:26:01 - OzoneForecasting - INFO - Подготовка данных: 780 точек, длина последовательности: 12
+2025-12-01 22:26:01 - OzoneForecasting - INFO - Данные подготовлены: X.shape=(768, 12, 1), y.shape=(768,)
+2025-12-01 22:26:01 - OzoneForecasting - INFO - Функция prepare_data выполнена успешно
+2025-12-01 22:26:01 - OzoneForecasting - INFO - Разделение данных: train=(614, 12, 1), validation=(154, 12, 1)
+2025-12-01 22:26:01 - OzoneForecasting - INFO - Построение модели с входной формой: (12, 1)
+2025-12-01 22:26:04 - OzoneForecasting - INFO - Модель успешно скомпилирована
+2025-12-01 22:26:04 - OzoneForecasting - INFO - Начало обучения на 50 эпох
+2025-12-01 22:26:05 - OzoneForecasting - INFO - 🎯 Начало обучения нейросети
+2025-12-01 22:26:39 - OzoneForecasting - INFO - 🏁 Обучение нейросети завершено
+2025-12-01 22:26:39 - OzoneForecasting - INFO - Оценка качества модели...
+2025-12-01 22:26:40 - OzoneForecasting - INFO - Обучение завершено! Метрики: MAE=14.835, RMSE=17.575
+2025-12-01 22:26:40 - OzoneForecasting - INFO - ✅ Модель OzoneHybridModel (Conv1D + LSTM) обучена успешно. Время: 0:00:38.688991
+2025-12-01 22:26:40 - OzoneForecasting - INFO - Обучение модели завершено успешно
+2025-12-01 22:26:42 - OzoneForecasting - INFO - Вызов функции: run_comparison
+2025-12-01 22:26:42 - OzoneForecasting - INFO - Запуск сравнительного анализа архитектур
+2025-12-01 22:26:42 - OzoneForecasting - INFO - Запуск потока сравнения моделей
+2025-12-01 22:26:42 - OzoneForecasting - INFO - Функция run_comparison выполнена успешно
+2025-12-01 22:26:42 - OzoneForecasting - INFO - Инициализирован OzoneDataLoader
+2025-12-01 22:26:42 - OzoneForecasting - INFO - Инициализирован ModelComparator для сравнения архитектур
+2025-12-01 22:26:42 - OzoneForecasting - INFO - 📊 Начало операции: Создание демонстрационных данных ОСО
+2025-12-01 22:26:42 - OzoneForecasting - INFO - Генерация данных за период: 1960-2024
+2025-12-01 22:26:42 - OzoneForecasting - INFO - Создано демонстрационных данных: 780 записей
+2025-12-01 22:26:42 - OzoneForecasting - INFO - ✅ Создание демонстрационных данных ОСО завершена. Размер данных: (780, 7)
+2025-12-01 22:26:42 - OzoneForecasting - INFO - Данные подготовлены: train=(614, 12, 1), val=(154, 12, 1)
+2025-12-01 22:26:43 - OzoneForecasting - INFO - Построено 6 моделей для сравнения
+2025-12-01 22:26:43 - OzoneForecasting - INFO - Обучение модели: LSTM
+2025-12-01 22:26:55 - OzoneForecasting - INFO - Модель LSTM: MAE=33.305, RMSE=37.205, R²=-4.016, Время=11.3с
+2025-12-01 22:26:55 - OzoneForecasting - INFO - Обучение модели: Deep_LSTM
+2025-12-01 22:27:18 - OzoneForecasting - INFO - Модель Deep_LSTM: MAE=14.592, RMSE=16.669, R²=-0.007, Время=22.2с
+2025-12-01 22:27:18 - OzoneForecasting - INFO - Обучение модели: Bidirectional_LSTM
+2025-12-01 22:27:33 - OzoneForecasting - INFO - Модель Bidirectional_LSTM: MAE=14.715, RMSE=16.826, R²=-0.026, Время=13.8с
+2025-12-01 22:27:33 - OzoneForecasting - INFO - Обучение модели: GRU
+2025-12-01 22:27:43 - OzoneForecasting - INFO - Вызов функции: run_forecast
+2025-12-01 22:27:43 - OzoneForecasting - INFO - Запуск прогноза на 12 месяцев с моделью LSTM
+2025-12-01 22:27:43 - OzoneForecasting - ERROR - Ошибка выполнения прогноза: argument of type 'NoneType' is not iterable
+2025-12-01 22:27:45 - OzoneForecasting - INFO - Функция run_forecast выполнена успешно
+2025-12-01 22:27:47 - OzoneForecasting - INFO - Модель GRU: MAE=14.524, RMSE=16.613, R²=-0.000, Время=13.3с
+2025-12-01 22:27:47 - OzoneForecasting - INFO - Обучение модели: CNN
+2025-12-01 22:27:48 - OzoneForecasting - INFO - Вызов функции: run_forecast
+2025-12-01 22:27:48 - OzoneForecasting - INFO - Запуск прогноза на 12 месяцев с моделью GRU
+2025-12-01 22:27:48 - OzoneForecasting - ERROR - Ошибка выполнения прогноза: argument of type 'NoneType' is not iterable
+2025-12-01 22:27:50 - OzoneForecasting - INFO - Функция run_forecast выполнена успешно
+2025-12-01 22:27:53 - OzoneForecasting - INFO - Вызов функции: run_forecast
+2025-12-01 22:27:54 - OzoneForecasting - INFO - Запуск прогноза на 12 месяцев с моделью CNN
+2025-12-01 22:27:54 - OzoneForecasting - ERROR - Ошибка выполнения прогноза: argument of type 'NoneType' is not iterable
+2025-12-01 22:27:55 - OzoneForecasting - INFO - Функция run_forecast выполнена успешно
+2025-12-01 22:27:58 - OzoneForecasting - INFO - Модель CNN: MAE=19.360, RMSE=22.429, R²=-0.823, Время=10.6с
+2025-12-01 22:27:58 - OzoneForecasting - INFO - Обучение модели: CNN_LSTM_Hybrid
+2025-12-01 22:28:14 - OzoneForecasting - INFO - Вызов функции: run_forecast
+2025-12-01 22:28:14 - OzoneForecasting - INFO - Запуск прогноза на 12 месяцев с моделью CNN
+2025-12-01 22:28:14 - OzoneForecasting - ERROR - Ошибка выполнения прогноза: argument of type 'NoneType' is not iterable
+2025-12-01 22:28:20 - OzoneForecasting - INFO - Модель CNN_LSTM_Hybrid: MAE=14.988, RMSE=17.338, R²=-0.089, Время=21.4с
+2025-12-01 22:28:20 - OzoneForecasting - INFO - Сравнение моделей завершено успешно
+2025-12-01 22:28:20 - OzoneForecasting - INFO - Создана сравнительная таблица моделей
+2025-12-01 22:28:25 - OzoneForecasting - INFO - Функция run_forecast выполнена успешно
+2025-12-01 22:28:27 - OzoneForecasting - INFO - Вызов функции: run_forecast
+2025-12-01 22:28:27 - OzoneForecasting - INFO - Запуск прогноза на 12 месяцев с моделью LSTM
+2025-12-01 22:28:27 - OzoneForecasting - INFO - Прогноз на 12 месяцев успешно выполнен с моделью LSTM
+2025-12-01 22:28:30 - OzoneForecasting - INFO - Функция run_forecast выполнена успешно
+2025-12-01 22:28:39 - OzoneForecasting - INFO - Вызов функции: run_forecast
+2025-12-01 22:28:39 - OzoneForecasting - INFO - Запуск прогноза на 12 месяцев с моделью CNN_LSTM_Hybrid
+2025-12-01 22:28:39 - OzoneForecasting - INFO - Прогноз на 12 месяцев успешно выполнен с моделью CNN_LSTM_Hybrid
+2025-12-01 22:28:40 - OzoneForecasting - INFO - Функция run_forecast выполнена успешно
+2025-12-01 22:28:46 - OzoneForecasting - INFO - Вызов функции: run_forecast
+2025-12-01 22:28:46 - OzoneForecasting - INFO - Запуск прогноза на 12 месяцев с моделью CNN
+2025-12-01 22:28:46 - OzoneForecasting - INFO - Прогноз на 12 месяцев успешно выполнен с моделью CNN
+2025-12-01 22:28:47 - OzoneForecasting - INFO - Функция run_forecast выполнена успешно
+2025-12-01 22:28:50 - OzoneForecasting - INFO - Вызов функции: run_forecast
+2025-12-01 22:28:50 - OzoneForecasting - INFO - Запуск прогноза на 12 месяцев с моделью Bidirectional_LSTM
+2025-12-01 22:28:50 - OzoneForecasting - INFO - Прогноз на 12 месяцев успешно выполнен с моделью Bidirectional_LSTM
+2025-12-01 22:28:51 - OzoneForecasting - INFO - Функция run_forecast выполнена успешно
+2025-12-01 22:32:31 - OzoneForecasting - INFO - Вызов функции: run_forecast
+2025-12-01 22:32:31 - OzoneForecasting - INFO - Запуск прогноза на 6 месяцев с моделью Bidirectional_LSTM
+2025-12-01 22:32:31 - OzoneForecasting - INFO - Прогноз на 6 месяцев успешно выполнен с моделью Bidirectional_LSTM
+2025-12-01 22:32:34 - OzoneForecasting - INFO - Функция run_forecast выполнена успешно
+2025-12-01 22:32:40 - OzoneForecasting - INFO - Вызов функции: run_forecast
+2025-12-01 22:32:40 - OzoneForecasting - INFO - Запуск прогноза на 1 месяцев с моделью Bidirectional_LSTM
+2025-12-01 22:32:40 - OzoneForecasting - INFO - Прогноз на 1 месяцев успешно выполнен с моделью Bidirectional_LSTM
+2025-12-01 22:32:41 - OzoneForecasting - INFO - Функция run_forecast выполнена успешно
+2025-12-01 22:32:58 - OzoneForecasting - INFO - ✅ Приложение завершило работу нормально

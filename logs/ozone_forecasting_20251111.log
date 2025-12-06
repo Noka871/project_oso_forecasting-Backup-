@@ -1,0 +1,108 @@
+2025-11-11 06:58:42 - OzoneForecasting - INFO - ==================================================
+2025-11-11 06:58:42 - OzoneForecasting - INFO - 🌍 ЗАПУСК ПРИЛОЖЕНИЯ OSO FORECASTING
+2025-11-11 06:58:42 - OzoneForecasting - INFO - ==================================================
+2025-11-11 06:58:42 - OzoneForecasting - INFO - 🚀 Запуск приложения OSO Forecasting
+2025-11-11 06:58:42 - OzoneForecasting - INFO - Инициализирован OzoneDataLoader
+2025-11-11 06:58:42 - OzoneForecasting - INFO - Инициализирована модель OzoneHybridModel
+2025-11-11 07:04:20 - OzoneForecasting - INFO - ==================================================
+2025-11-11 07:04:20 - OzoneForecasting - INFO - 🌍 ЗАПУСК ПРИЛОЖЕНИЯ OSO FORECASTING
+2025-11-11 07:04:20 - OzoneForecasting - INFO - ==================================================
+2025-11-11 07:04:20 - OzoneForecasting - INFO - 🚀 Запуск приложения OSO Forecasting
+2025-11-11 07:04:20 - OzoneForecasting - INFO - Инициализирован OzoneDataLoader
+2025-11-11 07:04:20 - OzoneForecasting - INFO - Инициализирована модель OzoneHybridModel
+2025-11-11 07:04:21 - OzoneForecasting - INFO - ✅ Интерфейс приложения инициализирован
+2025-11-11 07:04:33 - OzoneForecasting - INFO - Вызов функции: load_demo_data
+2025-11-11 07:04:33 - OzoneForecasting - INFO - Пользователь запросил загрузку демонстрационных данных
+2025-11-11 07:04:33 - OzoneForecasting - INFO - 📊 Начало операции: Создание демонстрационных данных ОСО
+2025-11-11 07:04:33 - OzoneForecasting - INFO - Функция load_demo_data выполнена успешно
+2025-11-11 07:04:33 - OzoneForecasting - INFO - Генерация данных за период: 1960-2024
+2025-11-11 07:04:33 - OzoneForecasting - INFO - Создано демонстрационных данных: 780 записей
+2025-11-11 07:04:33 - OzoneForecasting - INFO - ✅ Создание демонстрационных данных ОСО завершена. Размер данных: (780, 7)
+2025-11-11 07:04:33 - OzoneForecasting - INFO - Демо-данные успешно созданы и загружены в интерфейс
+2025-11-11 07:04:42 - OzoneForecasting - INFO - Вызов функции: train_model
+2025-11-11 07:04:42 - OzoneForecasting - INFO - Начало процесса обучения модели
+2025-11-11 07:04:42 - OzoneForecasting - INFO - Запуск потока обучения модели
+2025-11-11 07:04:42 - OzoneForecasting - INFO - Функция train_model выполнена успешно
+2025-11-11 07:04:48 - OzoneForecasting - INFO - 🚀 Начало обучения модели: OzoneHybridModel (Conv1D + LSTM)
+2025-11-11 07:04:48 - OzoneForecasting - INFO - Вызов функции: prepare_data
+2025-11-11 07:04:48 - OzoneForecasting - INFO - Подготовка данных: 780 точек, длина последовательности: 12
+2025-11-11 07:04:48 - OzoneForecasting - INFO - Данные подготовлены: X.shape=(768, 12, 1), y.shape=(768,)
+2025-11-11 07:04:48 - OzoneForecasting - INFO - Функция prepare_data выполнена успешно
+2025-11-11 07:04:48 - OzoneForecasting - INFO - Разделение данных: train=(614, 12, 1), validation=(154, 12, 1)
+2025-11-11 07:04:48 - OzoneForecasting - INFO - Построение модели с входной формой: (12, 1)
+2025-11-11 07:04:49 - OzoneForecasting - INFO - Модель успешно скомпилирована
+2025-11-11 07:04:49 - OzoneForecasting - INFO - Начало обучения на 50 эпох
+2025-11-11 07:04:49 - OzoneForecasting - INFO - 🎯 Начало обучения нейросети
+2025-11-11 07:05:09 - OzoneForecasting - INFO - 🏁 Обучение нейросети завершено
+2025-11-11 07:05:09 - OzoneForecasting - INFO - Оценка качества модели...
+2025-11-11 07:05:09 - OzoneForecasting - INFO - Обучение завершено! Метрики: MAE=14.176, RMSE=15.946
+2025-11-11 07:05:09 - OzoneForecasting - INFO - ✅ Модель OzoneHybridModel (Conv1D + LSTM) обучена успешно. Время: 0:00:21.190231
+2025-11-11 07:05:09 - OzoneForecasting - INFO - Обучение модели завершено успешно
+2025-11-11 07:05:15 - OzoneForecasting - INFO - Вызов функции: run_forecast
+2025-11-11 07:05:15 - OzoneForecasting - INFO - Запуск прогноза на 12 месяцев
+2025-11-11 07:05:15 - OzoneForecasting - INFO - Вызов функции: forecast
+2025-11-11 07:05:15 - OzoneForecasting - INFO - Выполнение прогноза на 12 периодов
+2025-11-11 07:05:15 - OzoneForecasting - INFO - Прогноз выполнен: среднее значение=299.9
+2025-11-11 07:05:15 - OzoneForecasting - INFO - Функция forecast выполнена успешно
+2025-11-11 07:05:15 - OzoneForecasting - INFO - Прогноз на 12 месяцев успешно выполнен
+2025-11-11 07:05:16 - OzoneForecasting - INFO - Функция run_forecast выполнена успешно
+2025-11-11 07:07:12 - OzoneForecasting - INFO - ✅ Приложение завершило работу нормально
+2025-11-11 07:07:33 - OzoneForecasting - INFO - ==================================================
+2025-11-11 07:07:33 - OzoneForecasting - INFO - 🌍 ЗАПУСК ПРИЛОЖЕНИЯ OSO FORECASTING
+2025-11-11 07:07:33 - OzoneForecasting - INFO - ==================================================
+2025-11-11 07:07:34 - OzoneForecasting - INFO - 🚀 Запуск приложения OSO Forecasting
+2025-11-11 07:07:34 - OzoneForecasting - INFO - Инициализирован OzoneDataLoader
+2025-11-11 07:07:34 - OzoneForecasting - INFO - Инициализирована модель OzoneHybridModel
+2025-11-11 07:07:35 - OzoneForecasting - INFO - ✅ Интерфейс приложения инициализирован
+2025-11-11 07:07:42 - OzoneForecasting - INFO - ✅ Приложение завершило работу нормально
+2025-11-11 07:48:56 - OzoneForecasting - INFO - ==================================================
+2025-11-11 07:48:56 - OzoneForecasting - INFO - 🌍 ЗАПУСК ПРИЛОЖЕНИЯ OSO FORECASTING
+2025-11-11 07:48:56 - OzoneForecasting - INFO - ==================================================
+2025-11-11 07:48:56 - OzoneForecasting - INFO - 🚀 Запуск приложения OSO Forecasting
+2025-11-11 07:48:56 - OzoneForecasting - INFO - Инициализирован OzoneDataLoader
+2025-11-11 07:48:56 - OzoneForecasting - INFO - Инициализирована модель OzoneHybridModel
+2025-11-11 07:48:58 - OzoneForecasting - INFO - ✅ Интерфейс приложения инициализирован
+2025-11-11 07:49:46 - OzoneForecasting - INFO - ✅ Приложение завершило работу нормально
+2025-11-11 07:50:14 - OzoneForecasting - INFO - ==================================================
+2025-11-11 07:50:14 - OzoneForecasting - INFO - 🌍 ЗАПУСК ПРИЛОЖЕНИЯ OSO FORECASTING
+2025-11-11 07:50:14 - OzoneForecasting - INFO - ==================================================
+2025-11-11 07:50:15 - OzoneForecasting - INFO - 🚀 Запуск приложения OSO Forecasting
+2025-11-11 07:50:15 - OzoneForecasting - INFO - Инициализирован OzoneDataLoader
+2025-11-11 07:50:15 - OzoneForecasting - INFO - Инициализирована модель OzoneHybridModel
+2025-11-11 07:50:16 - OzoneForecasting - INFO - ✅ Интерфейс приложения инициализирован
+2025-11-11 07:51:09 - OzoneForecasting - INFO - Вызов функции: load_demo_data
+2025-11-11 07:51:09 - OzoneForecasting - INFO - Пользователь запросил загрузку демонстрационных данных
+2025-11-11 07:51:09 - OzoneForecasting - INFO - 📊 Начало операции: Создание демонстрационных данных ОСО
+2025-11-11 07:51:09 - OzoneForecasting - INFO - Функция load_demo_data выполнена успешно
+2025-11-11 07:51:09 - OzoneForecasting - INFO - Генерация данных за период: 1960-2024
+2025-11-11 07:51:09 - OzoneForecasting - INFO - Создано демонстрационных данных: 780 записей
+2025-11-11 07:51:09 - OzoneForecasting - INFO - ✅ Создание демонстрационных данных ОСО завершена. Размер данных: (780, 7)
+2025-11-11 07:51:09 - OzoneForecasting - INFO - Демо-данные успешно созданы и загружены в интерфейс
+2025-11-11 07:51:18 - OzoneForecasting - INFO - Вызов функции: train_model
+2025-11-11 07:51:18 - OzoneForecasting - INFO - Начало процесса обучения модели
+2025-11-11 07:51:18 - OzoneForecasting - INFO - Запуск потока обучения модели
+2025-11-11 07:51:18 - OzoneForecasting - INFO - Функция train_model выполнена успешно
+2025-11-11 07:51:25 - OzoneForecasting - INFO - 🚀 Начало обучения модели: OzoneHybridModel (Conv1D + LSTM)
+2025-11-11 07:51:25 - OzoneForecasting - INFO - Вызов функции: prepare_data
+2025-11-11 07:51:25 - OzoneForecasting - INFO - Подготовка данных: 780 точек, длина последовательности: 12
+2025-11-11 07:51:25 - OzoneForecasting - INFO - Данные подготовлены: X.shape=(768, 12, 1), y.shape=(768,)
+2025-11-11 07:51:25 - OzoneForecasting - INFO - Функция prepare_data выполнена успешно
+2025-11-11 07:51:25 - OzoneForecasting - INFO - Разделение данных: train=(614, 12, 1), validation=(154, 12, 1)
+2025-11-11 07:51:25 - OzoneForecasting - INFO - Построение модели с входной формой: (12, 1)
+2025-11-11 07:51:25 - OzoneForecasting - INFO - Модель успешно скомпилирована
+2025-11-11 07:51:25 - OzoneForecasting - INFO - Начало обучения на 50 эпох
+2025-11-11 07:51:25 - OzoneForecasting - INFO - 🎯 Начало обучения нейросети
+2025-11-11 07:51:48 - OzoneForecasting - INFO - 🏁 Обучение нейросети завершено
+2025-11-11 07:51:48 - OzoneForecasting - INFO - Оценка качества модели...
+2025-11-11 07:51:49 - OzoneForecasting - INFO - Обучение завершено! Метрики: MAE=14.887, RMSE=17.635
+2025-11-11 07:51:49 - OzoneForecasting - INFO - ✅ Модель OzoneHybridModel (Conv1D + LSTM) обучена успешно. Время: 0:00:24.241612
+2025-11-11 07:51:49 - OzoneForecasting - INFO - Обучение модели завершено успешно
+2025-11-11 07:52:27 - OzoneForecasting - INFO - Вызов функции: run_forecast
+2025-11-11 07:52:27 - OzoneForecasting - INFO - Запуск прогноза на 12 месяцев
+2025-11-11 07:52:27 - OzoneForecasting - INFO - Вызов функции: forecast
+2025-11-11 07:52:27 - OzoneForecasting - INFO - Выполнение прогноза на 12 периодов
+2025-11-11 07:52:27 - OzoneForecasting - INFO - Прогноз выполнен: среднее значение=299.1
+2025-11-11 07:52:27 - OzoneForecasting - INFO - Функция forecast выполнена успешно
+2025-11-11 07:52:27 - OzoneForecasting - INFO - Прогноз на 12 месяцев успешно выполнен
+2025-11-11 07:52:30 - OzoneForecasting - INFO - Функция run_forecast выполнена успешно
+2025-11-11 07:54:31 - OzoneForecasting - INFO - ✅ Приложение завершило работу нормально
